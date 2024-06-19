@@ -19,8 +19,8 @@ body {
 header {
     background-color: #0d2c70d8;
     color: #fff;
-    height: 90px;
-    padding: 15px;
+    /* height: 90px; */
+    /* padding: 15px; */
 }
 
 main {
@@ -29,6 +29,8 @@ main {
 
 h1 {
 	font-size: 1.3rem;
+    padding: 15px;
+    padding-bottom: 50px;
 }
 
 nav {
