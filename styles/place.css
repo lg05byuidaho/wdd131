@@ -78,10 +78,10 @@ main {
 }
 
 
-.weather h2::after {
+/* .weather h2::after {
     content: "⛅";
     margin-left: 10px;
-}
+} */
 
 footer {
     background-color: var(--primary-color);
