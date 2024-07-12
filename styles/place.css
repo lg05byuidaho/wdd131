@@ -1,7 +1,9 @@
 
 :root {
-    --primary-color: #0072C6; /* Change to the appropriate color for Haiti */
-    --secondary-color: #ff0000; /* Another color to complement */
+    --primary-color: #00209fff;
+    /* --primary-color: #0072C6;  */
+    --secondary-color: 	#d21034ff;
+    /* --secondary-color: #ff0000;  */
     --text-color: #333;
     --background-color: #fff;
     --transparent-bg-color: rgba(255, 255, 255, 0.8);
@@ -78,7 +80,7 @@ main {
 }
 
 
-/* .weather h2::after {
+/* .weather h2::after {+
     content: "⛅";
     margin-left: 10px;
 } */

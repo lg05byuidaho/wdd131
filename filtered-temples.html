@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temples</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Filtered Temples - Guelson Laguerre">
+    <meta name="author" content="Guelson Laguerre">
+    
+    <!-- Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <!-- <link rel="stylesheet" href="styles/temples.css"> -->
+    <!-- <link rel="stylesheet" href="styles/temples-large.css"> -->
+</head>
+<body>
+    
+    <header>
+        <h1>TempleAlbum </h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Home</h2>
+        <div id="temple-cards">
+            <!-- Temple cards will be dynamically added here -->  
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> ⚽ Guelson Laguerre ⚽ Haiti</p>
+        <p id="lastModified" class="yellowpart"></p>
+    </footer>
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/filtered-temples.js" defer></script>
+</body>
+</html>
