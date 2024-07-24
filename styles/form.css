@@ -1,8 +1,7 @@
-/* Example styles for form layout and design */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,94 +12,87 @@ body {
     border: 1px solid #d3d2d2;
 }
 
-
-
-
-/* body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-  } */
-  
-  header, footer {
+header, footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
-  }
-  
-  main {
+}
+
+/* main {
     max-width: 600px;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  form {
+} */
+
+main {
+    max-width: 1200px; /* Increased to allow for more space for images */
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+form {
     display: grid;
     gap: 10px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="date"],
-  select,
-  textarea {
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  
-  textarea {
+    margin-bottom: 10px; /* Added margin */
+}
+
+textarea {
     min-height: 100px;
-  }
-  
-  fieldset {
+}
+
+fieldset {
     border: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .rating {
+    margin-bottom: 10px; /* Added margin */
+}
+
+.rating {
     display: flex;
     justify-content: center;
-  }
-  
-  .rating input[type="radio"] {
+    margin-bottom: 10px; /* Added margin */
+}
+
+.rating input[type="radio"] {
     display: none;
-  }
-  
-  .rating label {
+}
+
+.rating label {
     font-size: 24px;
     color: #ddd;
     cursor: pointer;
     transition: color 0.3s;
-  }
-  
-  .rating input[type="radio"]:checked + label {
+}
+
+.rating input[type="radio"]:checked + label {
     color: #f90;
-  }
-  
-  /* Add more specific styles as needed */
-  
- 
-  
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 1rem;
-    /* padding: 10px 0; */
     background-color: #0d2c70d8;
     color: white;
     width: 100%;
 }
-  
