@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-color: #163644;
+    --secondary-color:  #4E5355;
+    --accent1-color: #B8D5D4;
+    --accent2-color:  #176273;
+
+    --heading-font: Arial, serif;
+    --paragraph-font: Helvetica, serif;
+
+    --nav-background-color: #333333;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #ff0000;
+    --nav-hover-background-color: #cccccc;
+  }
+  
+  /* body selector rule */
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+  
+  /* headings grouping selector */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color); /* Choose your desired color */
+  }
+  
+  /* header selector */
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  /* p selector */
+  p {
+    padding: 25px;
+  }
+  
+  /* nav selector and anchor tag children */
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+
+  }

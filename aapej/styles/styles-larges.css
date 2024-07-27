@@ -1,0 +1,21 @@
+/* styles/styles-large.css */
+@media (min-width: 600px) {
+    nav ul li {
+        margin: 0 25px;
+    }
+    
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-content .logo {
+        height: 60px;
+    }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

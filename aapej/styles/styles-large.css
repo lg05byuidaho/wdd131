@@ -1,0 +1,17 @@
+/* styles/temples-large.css */
+@media (min-width: 1200px) {
+    nav ul {
+        justify-content: center;
+    }
+}
+
+
+/* @media (min-width: 980px) {
+    .temple-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+} */

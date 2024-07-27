@@ -1,0 +1,68 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo and Video Gallery - Youth Association</title>
+    <meta name="description" content="Browse through photos and videos of our past activities and events.">
+    <meta name="author" content="Guelson Laguerre">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="aap"><img class="logo" src="images/logo.png" alt="AAPEJ"></div>
+            <h1>Photo and Video Gallery</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="camp.html">Summer Camp Information</a></li>
+                <li><a href="activities.html">Activities and Workshops</a></li>
+                <li><a href="gallery.html">Photo and Video Gallery</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="photo-gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="images/photo1.jpg" alt="Photo 1">
+                <img src="images/photo2.jpg" alt="Photo 2">
+                <img src="images/photo3.jpg" alt="Photo 3">
+            </div>
+        </section>
+
+        <section id="video-gallery">
+            <h2>Video Gallery</h2>
+            <div class="videos">
+                <video controls>
+                    <source src="videos/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="videos/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> ⚽ AAPEJ | Guelson Laguerre ⚽ Haiti. All rights reserved.</p>
+        <p id="lastModified" class="yellowpart"></p>
+    </footer>
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/scripts.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="The rafting site plan include many informations about Three River Rafting. Visit the Home Page please.">
+    <meta name="author" content="Guelson Laguerre">
+    <link rel="stylesheet" href="styles/layout.css">
+</head>
+<body>
+    <header>
+       <h1>Header Content</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Main Content Section</h2>
+            <p>This is the Main content of the webpage.</p>
+        </section>
+        <aside>
+            <h2>Sidebar</h2>
+            <p>This is the sidebar content.</p>  
+        </aside>       
+    </main>
+    <footer>
+        <p>Footer Content &copy;2024 Guelson Laguerre</p>
+    </footer>
+</body>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles/layout.css">
+</head>
+<body>
+    <header>
+        <h1>Header Content</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Main Content Area</h2>
+            <p>Your main content goes here.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
+</body>
+</html>

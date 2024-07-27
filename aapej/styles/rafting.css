@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* rafting.css */
+:root {
+    --primary-color: #163644;
+    --secondary-color:  #4E5355;
+    --headingt-color: #333333;
+    --paragraph-color:  #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-media-link {
+  text-decoration: none;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Put elements in the div class hero in normal form */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  /* width: 100%; */
+  width: 1200px;
+  height: 700px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 12.5%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  width: 1160px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(46, 88, 166, 0.4);
+  color: white;
+  padding: 10px;
+  text-align: justify;
+  width: 80%;
+}
+
+.hero article p {
+  color: white;
+  padding: 10px;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero article img {
+  float: right;
+  width: 235px;
+  height: 170px;
+  padding: 10px;
+}
+
+/* Arrangement of the header part */
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1200px;
+}
+
+main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: navy;
+  padding: 20px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+nav {
+	text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.navigate {
+	display: flex;
+	list-style: none;
+}
+
+.navigate li {
+	flex: 1 1 100%;
+}
+
+.navigate a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigate a:hover {
+	color: rgb(232, 117, 16);
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+/* Styling the History Section */
+.histosec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #edf4f5; */
+  padding: 10px;
+}
+
+.histosec h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.histosec p {
+  width: 30%;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.histosec img {
+  width: 270px;
+  height: 220px;
+  padding: 25px;
+  object-fit: cover;
+}
+
+
+/* Styling the Adventures Section */
+.advensec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #edf4f5; */
+  padding: 10px;
+}
+ 
+.advensec h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.advensec figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  /* padding: 5px; */
+  max-width: 200px;
+  margin: 10px;
+}
+
+.advensec img {
+  justify-content: center;
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.advensec figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+
+/* Styling the Footer */
+
+footer {
+  display: grid;
+  grid-template-columns: 4fr 2fr  1fr;
+  width: 100%;
+  /* padding-left: 33%; */
+  padding: 10px;
+  padding-top: 25px;
+}
+
+footer p {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+  color: navy;
+  padding-top: 25px;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+footer nav img {
+  width: 45px;
+  height: 45px;
+  /* margin-left: 10px; */
+}
+
+
+/* Contact styles Parts */
+
+.secontact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #edf4f5;
+  padding: 20px;
+}
+
+.secontact h2 {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  /* padding: 5px; */
+}
+
+.secontact div p {
+  width:100%;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* padding: 5px; */
+}
+
+.secontact div iframe {
+  width: 490px;
+  height: 330px;
+  padding: 20px;
+  object-fit: cover;
+  border: 1px solid;
+  border-radius: .75em;
+}
+
+
+/* contact */
+/* Informations parts */
+
+
+/* Styling the employees Section */
+.secempro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #edf4f5; */
+  padding: 10px;
+}
+
+.secempro h2 {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.employee-profil {
+  width: 30%;
+  padding: 10px;
+}
+
+.employee-profil img {
+  width: 350px;
+  height: 280px;
+  /* padding: 20px; */
+}
+
+
+.employee-profil p {
+  width: 94%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  text-align: justify;
+  background-color: #4E5355;
+  color: #fff;
+  font: italic medium sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* CSS styles for the form */
+.secform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secform form {
+  /* max-width: 750px; */
+  margin: 0 auto;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #cbcdce; */
+  border-radius: .5rem;
+  width: 450px;
+  /* margin: 0 auto; */
+  /* padding: 1rem; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+}
+
+textarea, input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.secform div input {
+  width: 5%;
+  margin: 0.4rem; 
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.secform h2 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secform button[type="submit"] {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+
+
+/* Trips parts */
+
+/* Trip Description */
+
+.trip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.trip h2 {
+  position: absolute; 
+  /* top: 30%;  */
+  left: 51%; 
+  /* transform: translate(-50%, -50%);  */
+  color: navy; 
+  font-size: 2.3em;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.trip img {
+  max-width: 100%;
+  height: auto;
+}
+
+.trip p {
+  max-width: 100%;
+  height: auto;
+  text-align: justify;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #666666; */
+  color: navy;
+}
+
+/* Infos Section */
+
+.tripinfos h1 {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tripinfos p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+}
+
+.tripinfos a {
+  text-align: justify;
+  color: white;
+  /* margin: 2.5rem; */
+  background-color: navy;
+  color: #fff;
+  border: none;
+  font-size: 1.7rem;
+  padding: 20px;
+  margin: 0 auto;
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Advother Section */
+.advother h2 {
+  text-align: justify;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  font-size: 2.1rem;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.advother p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+}
+
+/* Styling the Trip details */
+.tripdetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #edf4f5;
+  padding: 20px;
+}
+
+.tripdetails h1 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tripdetails h2 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tripdetails p {
+  width: 80%;
+  color: #000;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.tripdetails table {
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+
+
+table, td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  color: #fff;
+  background-color: navy;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+thead, tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Home parts */
+
+
+/* body { */
+.hometrr {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* div header { */
+.headertrr {
+  /* background-image: url('rafting-header.jpg'); */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.headertrr img {
+  width: 100%; 
+  height: auto;
+}
+
+.headertrr h1 {
+  position: absolute; 
+  top: 60%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 2.3em;
+}
+
+.formtrr {
+  /* text-align: center; */
+  margin: 20px auto;
+  /* max-width: 400px; */
+  width: 100%;
+}
+
+.formtrr input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+label {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formtrr h2 {
+  text-align: center;
+  width: 100%;
+  color: navy;
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formtrr button[type="submit"] {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  /* padding: .75rem; */
+  font-size: 1.5rem;
+  padding: 20px;
+  margin: 0 auto;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Div ahhh parts */
+.ahhh {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c0c0c0; */
+  padding: 20px;
+}
+
+.ahhh p {
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy;
+}
+
+.ahhh a {
+  position: absolute;
+  top: 85%;
+  left: 60%;
+  text-align: center;
+  color: white;
+  /* margin: 2.5rem; */
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  font-size: 2.3rem;
+  padding: 20px;
+  margin: 0 auto;
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid img {
+  max-width: 100%;
+  height: 370px;
+}
+
+.grid p {
+  max-width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #666666;
+  color: yellow;
+}
+
+
+
+/* Others Home Page */
+
+.container {
+  /* max-width: 1200px; */
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.item img {
+  width: 373px;
+  height: 290px;
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+.item p {
+  max-width: 100%;
+  /* height: auto; */
+  text-align: center;
+  /* padding: 20px; */
+  font-size: 1.5rem;
+  /* background-color: #666666; */
+  color: navy;
+}
+

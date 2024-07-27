@@ -1,0 +1,6 @@
+/* styles/gallery-large.css */
+@media (min-width: 1200px) {
+    nav ul {
+        justify-content: center;
+    }
+}
