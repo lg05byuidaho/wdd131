@@ -1,8 +1,11 @@
 :root {
     --primary-color: #000000;
-    --primary-color: #00209fff;
+    /* --primary-color: #00209fff; */
     /* --primary-color: #0072C6;  */
+    /* --secondary-color: 	#03224c; */
     --secondary-color: 	#d21034ff;
+    /* --thirty-color: #ffc000; */
+    --thirty-color: #03224c;
     /* --secondary-color: #ff0000;  */
     --text-color: #333;
     --background-color: #fff;
@@ -23,216 +26,12 @@ body {
     border: 1px solid #d3d2d2;
 }
 
-
-
 main {
     background-color: var(--background-color);
     
 }
 
-/* Home Page Contents */
-/* Put elements in the div class hero in normal form */
-.animator {
-    position: relative;
-  }
-  
-  .animator img {
-    display: block;
-    /* width: 100%; */
-    width: 1200px;
-    height: 700px;
-  }
-  
-  .animator h1 {
-    position: absolute;
-    top: 12.5%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px;
-    width: 1160px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .animator article {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(46, 88, 166, 0.4);
-    color: white;
-    padding: 10px;
-    text-align: justify;
-    width: 80%;
-  }
-  
-  .animator article p {
-    color: white;
-    padding: 10px;
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .animator article img {
-    float: right;
-    width: 235px;
-    height: 170px;
-    padding: 10px;
-  }
-
-  .hometrr {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-
-/* .hero {
-    position: relative;
-} */
-
-/* .hero img {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-} */
-
-
-
-/* About Parts */
-
-
-
-/* Gallery Parts */
-
-
-
-/* Contact Parts */
-/* Contact styles Parts */
-
-.secontact {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #edf4f5;
-    padding: 20px;
-  }
-  
-  .secontact h2 {
-    color: navy;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 100%;
-    /* padding: 5px; */
-  }
-  
-  .secontact div p {
-    width:100%;
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    /* padding: 5px; */
-  }
-  
-  .secontact div iframe {
-    width: 490px;
-    height: 330px;
-    padding: 20px;
-    object-fit: cover;
-    border: 1px solid;
-    border-radius: .75em;
-  }
-  
-  
-  /* contact */
-  /* Informations parts */
-  
-  
-  /* Styling the employees Section */
-  .secempro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* background-color: #edf4f5; */
-    padding: 10px;
-  }
-  
-  .secempro h2 {
-    color: navy;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .employee-profil {
-    width: 30%;
-    padding: 10px;
-  }
-  
-  .employee-profil img {
-    width: 350px;
-    height: 280px;
-    /* padding: 20px; */
-  }
-  
-  
-  .employee-profil p {
-    width: 94%;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    text-align: justify;
-    background-color: #4E5355;
-    color: #fff;
-    font: italic medium sans-serif;
-    font-size: 1.2rem;
-    padding: 10px;
-    text-align: center;
-  }
-
-/* Activities Parts */
-
-
-
-.yellowpart {
-    color: yellow;
-}
-
-
-header {
-	background-color: #ffffff;
-    color: #000;
-	/* display: flex; */
-	align-items: center;
-	justify-content: center;
-	/* padding: 20px; */
-	border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/* header .logo {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 1rem;
-}
-
-.logo {
-    width: 150px;
-    height: auto;
-    padding: 10px;
-}
-
-header h1 {
-    flex: 2;
-    font-size: 1.5rem;
-    font-weight: 100;
-    text-align: center;
-} */
-
-
-
+/* Header Content */
 .header-content {
     display: flex;
     align-items: center;
@@ -254,7 +53,6 @@ header h1 {
 }
 
 
-
 /* header, */
 main {
 	margin: 0 auto;
@@ -269,7 +67,8 @@ h1 {
 }
 
 nav {
-	background-color: #000000;
+	/* background-color: #000000; */
+    background-color: var(--primary-color);
 	margin: 0 auto;
 	/* max-width: 800px; */
 }
@@ -286,7 +85,8 @@ nav a {
 
 nav a:hover {
 	text-decoration:overline;
-    color: yellow;
+    /* color: orangered; */
+    color: #ff7f00;
 }
 
 /*  
@@ -311,44 +111,97 @@ nav a:hover {
 	height: auto;
 }
 
+
+/* Footer Part */
+footer {
+    text-align: center;
+    padding: 1rem;
+    /* padding: 10px 0; */
+    /* background-color: #000000; */
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
+}
+
+.yellowpart {
+    /* color: orangered; */
+    color: #ff7f00;
+}
+
+/* Home Page Contents */
+/* Put elements in the div class hero in normal form */
+
+.amasy img {
+    width: 100%;
+    height: auto;
+  }
+
+  .amasy img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .amasy h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    width: 1135px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/* ______________________________________________ */
+
+
+/* About Us Parts */
+
+
+
+/* Gallery Parts */
+
+
+
+/* Contact Parts */
+
+
+
 /* Main Parts / Content Style */
-main {
+
+/* About Us Parts */
+.about {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 5fr)); */
     /* grid-template-columns: 75% 25%; */
-    grid-template-columns: 2.6fr 1.4fr;
+    grid-template-columns: 2.3fr 1.7fr;
      gap: 10px;   /*Space between two section */
     /* max-width: 1350px; */
     margin: 20px;
 }
 
-.card {
-    background-color: #fff;
-    /* padding: 20px; */
-    border-radius: 10px;
-    /* border-style: dashed; */
-    /* border: #bbb; */
-    /* border-style: solid; */
-    border: 2px solid #d3d2d2;
-    /* border-color: rgb(187, 186, 186); */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* margin: 5px; */
-}
-
-
 .aright {
     float: right;
-    width: 210px;
+    width: 100%;
     height: auto;
     padding: 15px;
+    border: 1px solid;
+    border-color: #d3d2d2;
+    border-radius: 5px;
 }
 
 .aleft {
     float: left;
-    width: 230px;
+    width: 100%;
     height: auto;
     padding: 15px;
-    text-align: center;
+    /* text-align: center; */
+    border: 1px solid;
+    border-color: #d3d2d2;
+    border-radius: 5px;
 }
 
 .aleft img {
@@ -356,24 +209,35 @@ main {
     margin: 0 auto;
 }
 
-.aleft figcaption {
-    margin-top: 10px;
-    font-style: italic;
-    color: #555;
-    text-align: center;
-}
 
 .aleft + p {
     margin-left: 230px; /* Adjust this value as needed to ensure the text doesn't overlap with the image */
 }
 
+.simple {
+    width: 450px;
+    height: auto;
+}
 
+.about h2 {
+    font-size: 1.2rem;
+    /* background-color: rgb(5, 5, 80); */
+    /* background-color:#ff3c00d8; */
+    /* background-color: var(--secondary-color); */
+    background-color: var(--thirty-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
 
 section h2 {
     font-size: 1.2rem;
     /* background-color: rgb(5, 5, 80); */
-    background-color:#0d2c70d8;
-    color: #fff;
+    /* background-color:#ff3c00d8; */
+    /* background-color: var(--secondary-color); */
+    /* background-color: var(--thirty-color); */
+    color: #000000;
     text-align: center;
     padding: 20px;
     border-radius: 10px 10px 0 0;
@@ -387,18 +251,8 @@ section h3 {
     padding-top: 10px;
 }
 
-section hr {
-    border: none;
-    /* color: #d1cfcf; */
-    width:80%;
-    height: 1.3px;
-    background-color: #0d2c70d8;
-    margin: 10px 60px;
-    margin-top: 5px;
-}
-
 section p {
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     color: #061a46;
     /* 
@@ -407,10 +261,13 @@ section p {
 
 section ul {
     margin-left: 40px;
-    margin-top: 60%;
+    margin-top: 10px;
     /* padding: 10px; */
 }
 
+section ul li {
+    padding: 10px 5px;
+}
 /*  
 .pleft {
     float: left;
@@ -427,90 +284,46 @@ section a {
 }
 
 
+.about h3 {
+    font-size: 1.2rem;
+    color: #111622;
+    text-align: center;
+    /* text-align: center; */
+    padding-top: 10px;
+}
 
-/* Footer Parts */
-footer {
-    background-color: #0d2c70d8;
-    color: #fff;
-    padding: 20px 0;
+
+.about p {
+    padding: 10px;
+    margin: 10px;
+    color: #061a46;
+    /* 
+    margin-left: 10px; */
+}
+
+.about ul {
+    margin-left: 40px;
+    margin-top: 10px;
+    /* padding: 10px; */
+}
+
+.about ul li {
+    padding: 10px 5px;
+}
+/*  
+.pleft {
+    float: left;
     text-align: center;
 }
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CSS (styles.css)
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.about a {
+    color: #061a46;
+	/* color: #fff; */
+	/* text-align: center; */
+	padding: 1.2rem;
+	text-decoration: none;
 }
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 1em;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-#map-container {
-    margin-top: 1em;
-} */
 
 
 
@@ -525,6 +338,7 @@ footer {
 .gallery h2 {
     margin: 0;
     text-align: center;
+    padding: 10px;
 }
 
 .aapej-gallery {
@@ -577,15 +391,276 @@ nav ul {
     }
 }
 
-
-
-/* Footer Part */
-footer {
-    text-align: center;
+/* Video Testimonials */
+.video-testimonials {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 1015px;
+    margin: 0 auto;
     padding: 1rem;
-    /* padding: 10px 0; */
-    background-color: #0d2c70d8;
-    color: white;
+    box-sizing: border-box;
+}
+
+.video-item {
+    flex: 1 1 calc(50% - 1rem);
+    box-sizing: border-box;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: auto;
+}
+
+.video-item p {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+
+
+/* Summer Camp Information */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.campform {
+    display: flex;
+    flex-direction: column;
+}
+
+.campform label {
+    margin-top: 1em;
+}
+
+.campform input, form select {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+.campform input[type="submit"] {
+    margin-top: 1em;
+    padding: 0.75em;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.campform input[type="submit"]:hover {
+    background: #555;
+}
+
+
+/* Testimonials contents */
+.testi {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #444;
+}
+
+.testi p {
+    font-size: 16px;
+    color: #555;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial-img {
+    width: 40%;
+    height: auto;
+    padding: 1.5rem;
+}
+
+.testimonial-text {
+    width: 60%;
+}
+
+
+/* Activities Parts */
+/* Styling the Adventures Section */
+
+
+.activ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+   
+.activ h2 {
+    text-align: center;
     width: 100%;
 }
+  
+.activ figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 200px;
+    margin: 10px;
+}
+  
+.activ img {
+    max-width: 100%;
+    max-height: 150px;
+}
+  
+.activ figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.workshop-sports {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.workshop, .sports {
+    flex: 1;
+    margin: 0 10px;
+    padding-left: 20%;
+}
+
+
+  /* -------------------------------------------------------------------- */
+
+
+
+  /* Contact form styles */
+
+/* Contact styles Parts */
+
+.secontact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #edf4f5;
+    padding: 20px;
+}
+  
+  .secontact h2 {
+    color: rgb(2, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    /* padding: 5px; */
+}
+  
+  .secontact div p {
+    width:100%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* padding: 5px; */
+}
+  
+.secontact div iframe {
+    width: 490px;
+    height: 330px;
+    padding: 20px;
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: .75em;
+}
+
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating input[type="radio"]:checked + label {
+    color: #f90;
+}
+
+
+
+
+
+
+
+
 

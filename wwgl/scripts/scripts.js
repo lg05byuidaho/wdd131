@@ -25,72 +25,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // Form part
-
-const products = [
-    {
-      id: fc-1888,
-      name: "flux capacitor",
-      averagrating: 4.5
-    },
-    {
-      id: fc-2050,
-      name: "power laces",
-      averagerating: 4.7
-    },
-    {
-      id: fs-1987,
-      name: "time circuits",
-      averagerating: 3.5
-    },
-    {
-      id: ac-2000,
-      name: "low voltage reactor",
-      averagerating: 3.9
-    },
-    {
-      id: jj-1969,
-      name: "warp equalizer",
-      averagerating: 5.0
-    }
-  ];
-
-//   // JavaScript to populate Product Name options from products array
-// const products = [
-//   {
-//     id: 'fc-1888',
-//     name: 'flux capacitor',
-//     averagerating: 4.5
-//   },
-//   {
-//     id: 'fc-2050',
-//     name: 'power laces',
-//     averagerating: 4.7
-//   },
-//   {
-//     id: 'fs-1987',
-//     name: 'time circuits',
-//     averagerating: 3.5
-//   },
-//   {
-//     id: 'ac-2000',
-//     name: 'low voltage reactor',
-//     averagerating: 3.9
-//   },
-//   {
-//     id: 'jj-1969',
-//     name: 'warp equalizer',
-//     averagerating: 5.0
-//   }
-// ];
+const inquiries = [
+  {
+      id: "general",
+      name: "General Inquiry",
+      averageRating: 4.5
+  },
+  {
+      id: "camp",
+      name: "Summer Camp Information",
+      averageRating: 4.7
+  },
+  {
+      id: "activities",
+      name: "Activities and Workshops",
+      averageRating: 3.5
+  },
+  {
+      id: "other",
+      name: "Other",
+      averageRating: 3.9
+  }
+];
 
 document.addEventListener('DOMContentLoaded', function() {
-  const select = document.getElementById('productName');
+  const select = document.getElementById('inquiry');
 
-  products.forEach(product => {
-    const option = document.createElement('option');
-    option.value = product.id;
-    option.textContent = product.name;
-    select.appendChild(option);
+  inquiries.forEach(inquiry => {
+      const option = document.createElement('option');
+      option.value = inquiry.id;
+      option.textContent = inquiry.name;
+      select.appendChild(option);
   });
 });
 
@@ -121,3 +86,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Camp part
+
+
+
+
+// Contacts Parts
+document.addEventListener('DOMContentLoaded', function () {
+  // Example: alert user on form submission
+  const form = document.querySelector('form');
+  form.addEventListener('submit', function (event) {
+      alert('Thank you for your message. We will get back to you soon!');
+  });
+});
