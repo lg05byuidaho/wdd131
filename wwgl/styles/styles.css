@@ -112,7 +112,7 @@ nav a:hover {
 	}
 }
 
-/* Menu toggle
+/* Menu toggle */
 .nav-toggle {
     display: none;
     background: none;
@@ -145,22 +145,22 @@ nav ul {
 /* h1, h2, h3, p {
     padding: 10px;
     text-align: center;
-} */ 
+} */  */
 
 
 
 
 /* Mobile First Navigation */
-.nav-toggle {
+/* .nav-toggle {
     display: block;
     background: none;
     color: var(--primary-color);
     border: none;
     font-size: 1.5rem;
     margin: 1rem;
-}
+} */
 
-nav ul {
+/* nav ul {
     display: none;
     flex-direction: column;
     background-color: var(--primary-color);
@@ -168,10 +168,10 @@ nav ul {
 
 nav ul.nav-visible {
     display: flex;
-}
+} */
 
 /* Responsive adjustments for larger screens */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     nav ul {
         display: flex;
         flex-direction: row;
@@ -183,15 +183,15 @@ nav ul.nav-visible {
 }
 
 /* Responsive Typography */
-h1, h2, h3, p {
+/* h1, h2, h3, p {
     padding: 10px;
     text-align: justify;
-}
+} */
 
 /* Responsive Main Section */
-main {
+/* main {
     padding: 1rem;
-}
+} */ */
 
 /* -------------------------------------------------------------------------- */
 
