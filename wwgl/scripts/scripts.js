@@ -61,15 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// Gallery part
-// scripts/gallery.js
-document.addEventListener('DOMContentLoaded', () => {
-    const currentYear = new Date().getFullYear();
-    document.getElementById('currentyear').textContent = currentYear;
-
-    const lastModified = document.lastModified;
-    document.getElementById('lastModified').textContent = `Last Modified: ${lastModified}`;
-
+document.addEventListener("DOMContentLoaded", function() {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('nav ul');
 
@@ -77,7 +69,34 @@ document.addEventListener('DOMContentLoaded', () => {
         navMenu.classList.toggle('nav-visible');
         navToggle.textContent = navMenu.classList.contains('nav-visible') ? 'X' : '☰';
     });
+
+    // Ensure the menu is hidden when resizing to a larger screen
+    window.addEventListener('resize', function() {
+        if (window.innerWidth >= 768) {
+            navMenu.classList.remove('nav-visible');
+            navToggle.textContent = '☰';
+        }
+    });
 });
+
+
+// Gallery part
+// scripts/gallery.js
+// document.addEventListener('DOMContentLoaded', () => {
+//     const currentYear = new Date().getFullYear();
+//     document.getElementById('currentyear').textContent = currentYear;
+
+//     const lastModified = document.lastModified;
+//     document.getElementById('lastModified').textContent = `Last Modified: ${lastModified}`;
+
+//     const navToggle = document.querySelector('.nav-toggle');
+//     const navMenu = document.querySelector('nav ul');
+
+//     navToggle.addEventListener('click', () => {
+//         navMenu.classList.toggle('nav-visible');
+//         navToggle.textContent = navMenu.classList.contains('nav-visible') ? 'X' : '☰';
+//     });
+// });
 
 
 
