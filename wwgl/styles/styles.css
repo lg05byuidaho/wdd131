@@ -19,11 +19,11 @@
 }
 
 body {
-    max-width: 980px;
+    max-width: 1200px;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
+    /* max-width: 100%; */
     overflow-x: hidden;
     border: 1px solid #d3d2d2;
 }
